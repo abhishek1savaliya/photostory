@@ -44,17 +44,17 @@
         <form method='post'>
           <div class="mb-3">
             <label for="title" class="form-label">Title</label>
-            <input type="text" placeholder="Enter the title of the photo here" class="form-control" name="title" id="title" min="3">
+            <input type="text" placeholder="Enter the title of the photo here" class="form-control" name="title" id="title" min="3" required>
           </div>
 
           <div class="mb-3">
             <label for="desc" class="form-label">Description</label>
-            <textarea class="form-control" id="desc" name="description" placeholder="Enter the photo description here" rows="3" ></textarea>
+            <textarea class="form-control" id="desc" name="description" placeholder="Enter the photo description here" rows="3" required></textarea>
           </div>
 
           <div class="mb-3">
             <label for="url" class="form-label">Url</label>
-            <input type="text" placeholder="Enter the photo of url here" class="form-control" name="url" id="url" min="7">
+            <input type="text" placeholder="Enter the photo of url here" class="form-control" name="url" id="url" min="7" required>
           </div>
           <button type="submit" name="submit" class="btn text-white" style="background-color: #143c58;">Add a story</button>
         </form>
