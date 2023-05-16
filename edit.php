@@ -40,20 +40,24 @@ if (isset($_POST['submit'])){
 <div class="container mt-5">
     <form method="post">
     <div class="mb-3">
-        <label class="form-label"><b>title</b></label>
+        <label class="form-label"><b>Enter new title</b></label>
         <input type="text" class="form-control"  name="title" autocomplete="off" value="<?php echo $title;?>">
     </div>
     <div class="mb-3">
-        <label class="form-label"><b>description</b></label>
+        <label class="form-label"><b>Enter new description</b></label>
         <input type="text" class="form-control"  name="description" autocomplete="off" value="<?php echo $description;?>">
     </div>
     <div class="mb-3">
-        <label class="form-label"><b>url</b></label>
+        <label class="form-label"><b>Enter URL</b></label>
         <input type="text" class="form-control"  name="url" autocomplete="off" value="<?php echo $url;?>">
     </div>
 
     <button type="submit" class="btn btn-primary" name="submit">Update</button>
     </form>
+
+
+
+    
 </div>
 </body>
 </html>
